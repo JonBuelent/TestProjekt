@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background-color: #eaf5e1;
+    font-family: raleway;
+}
+.header-strip {
+    position:absolute;
+    background-color: #0b4475;
+    height: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+.header-left img {
+    height: 100px;
+}
+.header-left p {
+    font-size: 50px;
+    color: antiquewhite;
+    margin-left: 20px;
+    font-family: indie Flower;
+}
+.counter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+.counter a {
+    font-size: 30px;
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+}
+.counter a:hover {
+    color: orange;
+    border-bottom: 4px solid green;
+    transition: all 225ms ease-in-out;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.notation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 92%;
+    font-size: 2em;
+    color: #1e3d59;
+    text-decoration: underline;
+    /*margin-top: 10px;*/
+
+}
+.add-note-btn img {
+    height: 30px;
+}
+.add-note-btn :hover {
+    border: 3px solid #ff6e40;
+    transition: all 225ms ease-in-out;
+}
+.new-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 250px;
+    border: 3px solid lightgrey;
+    transition: all 225ms ease-in-out;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.new-btn img {
+    margin-right: 20px;
+    border-radius: 25px;
+}
+.add-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 250px;
+    border: 3px solid lightgrey;
+}
+.input-note {
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    /*height: 200px;*/
+    border-radius: 15px;
+    border: 3px solid lightgrey;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    margin: 30px;
+    width: 250px;
+}
+.new-note img {
+    height: 30px;
+    width: auto;
+}
+.user-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+textarea {
+    resize: none;
+    background-color: #eaf5e1;
+    border: unset;
+    text-align: center;
+    font-size: 1.2em;
+    height: 100px;
+}
+.btn {
+    padding: 10px;
+    border: 2px solid #1e3d59;
+    border-radius: 15px;
+    transition: all 225ms ease-in-out;
+    background-color: #eaf5e1;
+    cursor: pointer;
+}
